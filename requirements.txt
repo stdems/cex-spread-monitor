@@ -1,0 +1,8 @@
+aiogram
+aiohttp
+websockets
+pydantic
+python-dotenv
+pyyaml
+redis
+ujson

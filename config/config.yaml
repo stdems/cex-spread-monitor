@@ -1,0 +1,37 @@
+spread_monitor:
+  # Futures % for notification
+  avg_prices_threshold: 1
+  # Antispam
+  avg_prices_cooldown: 60
+  # If increase - notify
+  avg_prices_increase: 2
+
+  # Funding % for notification
+  funding_rates_threshold: 0.001
+  # Antispam
+  funding_rates_cooldown: 60
+  # If increase - notify
+  funding_rates_increase: 5
+
+
+trade:
+  spread_open: 1
+  spread_close: 1
+  # USDT
+  amount: 5
+
+  gate_leverage: 2
+  bybit_leverage: 2
+  mexc_leverage: 2
+  bingx_leverage: 2
+  okx_leverage: 2
+  kucoin_leverage: 2
+  bitget_leverage: 2
+  binance_leverage: 2
+
+
+# Orders (dodge slippage)
+limits:
+  GATE: 300
+  BYBIT: 1000
+  MEXC: 1000
